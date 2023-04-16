@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Install app dependencies
 COPY package.json /app/
-RUN npm install npm@latest -g
+RUN npm install 
 
 # Bundle app source
 COPY . /app
