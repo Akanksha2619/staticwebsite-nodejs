@@ -9,7 +9,7 @@ services:
     environment:
       NODE_ENV: production
       PORT: 3000
-      GITHUB_TOKEN: #insert your GitHub token here
+      GITHUB_TOKEN: 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
       RSA_PRIVATE_KEY: |
 #        RSA private key to encrypt sensitive configuration parameters with.
 #        the correct format starts with "-----BEGIN RSA PRIVATE KEY-----"
